@@ -471,7 +471,7 @@ class SettingsPage extends StatelessWidget {
                         onPressed: () {
                           Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => MyApp()), // Reemplaza MyApp con el nombre de tu clase principal
+                  MaterialPageRoute(builder: (context) => TakortApp()), // Reemplaza TakortApp con el nombre de tu clase principal
                 );
               },
                         child: Text(
